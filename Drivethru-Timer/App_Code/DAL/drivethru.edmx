@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DriveThruModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tblSensor">
+          <Key>
+            <PropertyRef Name="SensorID" />
+          </Key>
+          <Property Name="SensorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SensorName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblSensorData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sensorID" Type="nvarchar" MaxLength="50" />
+          <Property Name="sensorName" Type="nvarchar" MaxLength="50" />
+          <Property Name="applicationID" Type="nvarchar" MaxLength="50" />
+          <Property Name="networkID" Type="nvarchar" MaxLength="50" />
+          <Property Name="dataMessageGUID" Type="nvarchar" MaxLength="100" />
+          <Property Name="state" Type="nvarchar" MaxLength="50" />
+          <Property Name="messageDate" Type="datetime" />
+          <Property Name="rawData" Type="nvarchar" MaxLength="50" />
+          <Property Name="dataType" Type="nvarchar" MaxLength="50" />
+          <Property Name="dataValue" Type="nvarchar" MaxLength="50" />
+          <Property Name="plotValues" Type="nvarchar" MaxLength="50" />
+          <Property Name="plotLabels" Type="nvarchar" MaxLength="50" />
+          <Property Name="batteryLevel" Type="nvarchar" MaxLength="50" />
+          <Property Name="signalStrength" Type="nvarchar" MaxLength="50" />
+          <Property Name="pendingChange" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblSensorData1">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+          <Property Name="SequenceNumber" Type="int" />
+          <Property Name="dataMessageGUID" Type="nvarchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="tblSensorData2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+          <Property Name="SequenceNumber" Type="int" />
+          <Property Name="dataMessageGUID" Type="nvarchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="tblSensorData3">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+          <Property Name="SequenceNumber" Type="int" />
+          <Property Name="dataMessageGUID" Type="nvarchar" MaxLength="200" />
+        </EntityType>
+        <EntityContainer Name="DriveThruModelStoreContainer">
+          <EntitySet Name="tblSensor" EntityType="Self.tblSensor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblSensorData" EntityType="Self.tblSensorData" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblSensorData1" EntityType="Self.tblSensorData1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblSensorData2" EntityType="Self.tblSensorData2" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblSensorData3" EntityType="Self.tblSensorData3" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DriveThruModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="tblSensor">
+          <Key>
+            <PropertyRef Name="SensorID" />
+          </Key>
+          <Property Name="SensorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SensorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="tblSensorData">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sensorID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="sensorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="applicationID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="networkID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dataMessageGUID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="state" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="messageDate" Type="DateTime" Precision="3" />
+          <Property Name="rawData" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dataType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="dataValue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="plotValues" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="plotLabels" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="batteryLevel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="signalStrength" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="pendingChange" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="DriveThruEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tblSensors" EntityType="Self.tblSensor" />
+          <EntitySet Name="tblSensorDatas" EntityType="Self.tblSensorData" />
+          <EntitySet Name="tblSensorData1" EntityType="DriveThruModel.tblSensorData1" />
+          <EntitySet Name="tblSensorData2" EntityType="DriveThruModel.tblSensorData2" />
+          <EntitySet Name="tblSensorData3" EntityType="DriveThruModel.tblSensorData3" />
+          </EntityContainer>
+        <EntityType Name="tblSensorData1">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <Property Name="SequenceNumber" Type="Int32" />
+          <Property Name="dataMessageGUID" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="tblSensorData2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <Property Name="SequenceNumber" Type="Int32" />
+          <Property Name="dataMessageGUID" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="tblSensorData3">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <Property Name="SequenceNumber" Type="Int32" />
+          <Property Name="dataMessageGUID" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DriveThruModelStoreContainer" CdmEntityContainer="DriveThruEntities">
+          <EntitySetMapping Name="tblSensors">
+            <EntityTypeMapping TypeName="DriveThruModel.tblSensor">
+              <MappingFragment StoreEntitySet="tblSensor">
+                <ScalarProperty Name="SensorID" ColumnName="SensorID" />
+                <ScalarProperty Name="SensorName" ColumnName="SensorName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblSensorDatas">
+            <EntityTypeMapping TypeName="DriveThruModel.tblSensorData">
+              <MappingFragment StoreEntitySet="tblSensorData">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="sensorID" ColumnName="sensorID" />
+                <ScalarProperty Name="sensorName" ColumnName="sensorName" />
+                <ScalarProperty Name="applicationID" ColumnName="applicationID" />
+                <ScalarProperty Name="networkID" ColumnName="networkID" />
+                <ScalarProperty Name="dataMessageGUID" ColumnName="dataMessageGUID" />
+                <ScalarProperty Name="state" ColumnName="state" />
+                <ScalarProperty Name="messageDate" ColumnName="messageDate" />
+                <ScalarProperty Name="rawData" ColumnName="rawData" />
+                <ScalarProperty Name="dataType" ColumnName="dataType" />
+                <ScalarProperty Name="dataValue" ColumnName="dataValue" />
+                <ScalarProperty Name="plotValues" ColumnName="plotValues" />
+                <ScalarProperty Name="plotLabels" ColumnName="plotLabels" />
+                <ScalarProperty Name="batteryLevel" ColumnName="batteryLevel" />
+                <ScalarProperty Name="signalStrength" ColumnName="signalStrength" />
+                <ScalarProperty Name="pendingChange" ColumnName="pendingChange" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblSensorData1">
+            <EntityTypeMapping TypeName="DriveThruModel.tblSensorData1">
+              <MappingFragment StoreEntitySet="tblSensorData1">
+                <ScalarProperty Name="dataMessageGUID" ColumnName="dataMessageGUID" />
+                <ScalarProperty Name="SequenceNumber" ColumnName="SequenceNumber" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblSensorData2">
+            <EntityTypeMapping TypeName="DriveThruModel.tblSensorData2">
+              <MappingFragment StoreEntitySet="tblSensorData2">
+                <ScalarProperty Name="dataMessageGUID" ColumnName="dataMessageGUID" />
+                <ScalarProperty Name="SequenceNumber" ColumnName="SequenceNumber" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblSensorData3">
+            <EntityTypeMapping TypeName="DriveThruModel.tblSensorData3">
+              <MappingFragment StoreEntitySet="tblSensorData3">
+                <ScalarProperty Name="dataMessageGUID" ColumnName="dataMessageGUID" />
+                <ScalarProperty Name="SequenceNumber" ColumnName="SequenceNumber" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

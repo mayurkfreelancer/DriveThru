@@ -1,0 +1,404 @@
+===========================
+Webhook Received :- 4/9/2019 6:12:27 AM
+Sensor Data
+370678
+Sensor 3
+105
+34554
+106989d5-d2aa-439f-b98a-9d41947029c2
+2
+2019-04-09 06:12:31
+218%7c0
+Centimeter
+218
+7.2
+Feet
+100
+75
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:12:27 AM
+SequenceNumber:-1
+Successfully add record in tblSensorData3
+============================
+Total Record record in tblSensorData31
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:12:33", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"370678" , "sensorName":"Sensor 3", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"106989d5-d2aa-439f-b98a-9d41947029c2", "state": "2", "messageDate": "2019-04-09 06:12:31", "rawData":"218%7c0", "dataType": "Centimeter", "dataValue": "218", "plotValues": "7.2", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "75", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:12:27 AM
+===========================
+Webhook Received :- 4/9/2019 6:13:53 AM
+Sensor Data
+366687
+Sensor 2
+105
+34554
+94da9970-2836-427d-abcb-79a6e7da1325
+18
+2019-04-09 06:13:53
+20%7c1
+Centimeter
+20
+0.7
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:13:53 AM
+SequenceNumber:-1
+Successfully add record in tblSensorData2
+============================
+Total Record record in tblSensorData2:-1
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:13:59", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"366687" , "sensorName":"Sensor 2", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"94da9970-2836-427d-abcb-79a6e7da1325", "state": "18", "messageDate": "2019-04-09 06:13:53", "rawData":"20%7c1", "dataType": "Centimeter", "dataValue": "20", "plotValues": "0.7", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:13:53 AM
+===========================
+Webhook Received :- 4/9/2019 6:17:45 AM
+Sensor Data
+372011
+Sensor 1
+105
+34554
+fb18467a-acfd-4289-b5ac-d7bc66bcd1d4
+2
+2019-04-09 06:17:49
+196%7c0
+Centimeter
+196
+6.4
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:17:45 AM
+SequenceNumber:-2
+Successfully add record in tblSensorData1
+============================
+Total Record record in tblSensorData1:-2
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:17:52", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"372011" , "sensorName":"Sensor 1", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"fb18467a-acfd-4289-b5ac-d7bc66bcd1d4", "state": "2", "messageDate": "2019-04-09 06:17:49", "rawData":"196%7c0", "dataType": "Centimeter", "dataValue": "196", "plotValues": "6.4", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:17:45 AM
+===========================
+Webhook Received :- 4/9/2019 6:22:27 AM
+Sensor Data
+370678
+Sensor 3
+105
+34554
+4827bb80-2f8f-4403-afcb-8598bc0eeb4d
+2
+2019-04-09 06:22:31
+218%7c0
+Centimeter
+218
+7.2
+Feet
+100
+76
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:22:27 AM
+SequenceNumber:-2
+Successfully add record in tblSensorData3
+============================
+Total Record record in tblSensorData3:-2
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:22:33", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"370678" , "sensorName":"Sensor 3", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"4827bb80-2f8f-4403-afcb-8598bc0eeb4d", "state": "2", "messageDate": "2019-04-09 06:22:31", "rawData":"218%7c0", "dataType": "Centimeter", "dataValue": "218", "plotValues": "7.2", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "76", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:22:27 AM
+===========================
+Webhook Received :- 4/9/2019 6:23:47 AM
+Sensor Data
+366687
+Sensor 2
+105
+34554
+a378c48b-cc80-4af0-b4c3-52477133119a
+2
+2019-04-09 06:23:53
+37%7c0
+Centimeter
+37
+1.2
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:23:47 AM
+SequenceNumber:-2
+Successfully add record in tblSensorData2
+============================
+Total Record record in tblSensorData2:-2
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:23:53", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"366687" , "sensorName":"Sensor 2", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"a378c48b-cc80-4af0-b4c3-52477133119a", "state": "2", "messageDate": "2019-04-09 06:23:53", "rawData":"37%7c0", "dataType": "Centimeter", "dataValue": "37", "plotValues": "1.2", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:23:47 AM
+===========================
+Webhook Received :- 4/9/2019 6:27:45 AM
+Sensor Data
+372011
+Sensor 1
+105
+34554
+cc414ef0-7ce8-49d3-8195-0c802958bdae
+2
+2019-04-09 06:27:49
+195%7c0
+Centimeter
+195
+6.4
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:27:45 AM
+SequenceNumber:-3
+Successfully add record in tblSensorData1
+============================
+Total Record record in tblSensorData1:-3
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:27:51", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"372011" , "sensorName":"Sensor 1", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"cc414ef0-7ce8-49d3-8195-0c802958bdae", "state": "2", "messageDate": "2019-04-09 06:27:49", "rawData":"195%7c0", "dataType": "Centimeter", "dataValue": "195", "plotValues": "6.4", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:27:45 AM
+===========================
+Webhook Received :- 4/9/2019 6:32:27 AM
+Sensor Data
+370678
+Sensor 3
+105
+34554
+12217245-7f7a-480d-9450-f084270e066d
+2
+2019-04-09 06:32:31
+220%7c0
+Centimeter
+220
+7.2
+Feet
+100
+75
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:32:27 AM
+SequenceNumber:-3
+Successfully add record in tblSensorData3
+============================
+Total Record record in tblSensorData3:-3
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:32:33", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"370678" , "sensorName":"Sensor 3", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"12217245-7f7a-480d-9450-f084270e066d", "state": "2", "messageDate": "2019-04-09 06:32:31", "rawData":"220%7c0", "dataType": "Centimeter", "dataValue": "220", "plotValues": "7.2", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "75", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:32:27 AM
+===========================
+Webhook Received :- 4/9/2019 6:33:47 AM
+Sensor Data
+366687
+Sensor 2
+105
+34554
+6bd74424-d179-41fa-a40e-b4e29bdf664b
+2
+2019-04-09 06:33:53
+37%7c0
+Centimeter
+37
+1.2
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:33:47 AM
+SequenceNumber:-3
+Successfully add record in tblSensorData2
+============================
+Total Record record in tblSensorData2:-3
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:33:53", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"366687" , "sensorName":"Sensor 2", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"6bd74424-d179-41fa-a40e-b4e29bdf664b", "state": "2", "messageDate": "2019-04-09 06:33:53", "rawData":"37%7c0", "dataType": "Centimeter", "dataValue": "37", "plotValues": "1.2", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:33:47 AM
+===========================
+Webhook Received :- 4/9/2019 6:37:46 AM
+Sensor Data
+372011
+Sensor 1
+105
+34554
+9a9f3318-0dac-43e0-9380-8ef2da831cae
+2
+2019-04-09 06:37:49
+193%7c0
+Centimeter
+193
+6.3
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:37:46 AM
+SequenceNumber:-4
+Successfully add record in tblSensorData1
+============================
+Total Record record in tblSensorData1:-4
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:37:53", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"372011" , "sensorName":"Sensor 1", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"9a9f3318-0dac-43e0-9380-8ef2da831cae", "state": "2", "messageDate": "2019-04-09 06:37:49", "rawData":"193%7c0", "dataType": "Centimeter", "dataValue": "193", "plotValues": "6.3", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:37:47 AM
+===========================
+Webhook Received :- 4/9/2019 6:42:27 AM
+Sensor Data
+370678
+Sensor 3
+105
+34554
+f7396b33-4beb-4a97-9231-180dd757b676
+2
+2019-04-09 06:42:31
+220%7c0
+Centimeter
+220
+7.2
+Feet
+100
+75
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:42:27 AM
+SequenceNumber:-4
+Successfully add record in tblSensorData3
+============================
+Total Record record in tblSensorData3:-4
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:42:33", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"370678" , "sensorName":"Sensor 3", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"f7396b33-4beb-4a97-9231-180dd757b676", "state": "2", "messageDate": "2019-04-09 06:42:31", "rawData":"220%7c0", "dataType": "Centimeter", "dataValue": "220", "plotValues": "7.2", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "75", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:42:27 AM
+===========================
+Webhook Received :- 4/9/2019 6:43:47 AM
+Sensor Data
+366687
+Sensor 2
+105
+34554
+2014554c-544a-41b5-a1a3-d8e58f676c16
+18
+2019-04-09 06:43:53
+20%7c1
+Centimeter
+20
+0.7
+Feet
+100
+96
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:43:47 AM
+SequenceNumber:-4
+Successfully add record in tblSensorData2
+============================
+Total Record record in tblSensorData2:-4
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:43:53", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"366687" , "sensorName":"Sensor 2", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"2014554c-544a-41b5-a1a3-d8e58f676c16", "state": "18", "messageDate": "2019-04-09 06:43:53", "rawData":"20%7c1", "dataType": "Centimeter", "dataValue": "20", "plotValues": "0.7", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "96", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:43:47 AM
+===========================
+Webhook Received :- 4/9/2019 6:47:45 AM
+Sensor Data
+372011
+Sensor 1
+105
+34554
+670e0ecc-3819-458c-aa4f-0b366dff75a8
+2
+2019-04-09 06:47:49
+196%7c0
+Centimeter
+196
+6.4
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:47:45 AM
+SequenceNumber:-5
+Successfully add record in tblSensorData1
+============================
+Total Record record in tblSensorData1:-5
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:47:51", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"372011" , "sensorName":"Sensor 1", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"670e0ecc-3819-458c-aa4f-0b366dff75a8", "state": "2", "messageDate": "2019-04-09 06:47:49", "rawData":"196%7c0", "dataType": "Centimeter", "dataValue": "196", "plotValues": "6.4", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:47:45 AM
+===========================
+Webhook Received :- 4/9/2019 6:52:29 AM
+Sensor Data
+370678
+Sensor 3
+105
+34554
+ca420607-61e1-40f2-b15c-7cd1b6b4074b
+2
+2019-04-09 06:52:31
+218%7c0
+Centimeter
+218
+7.2
+Feet
+100
+75
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:52:29 AM
+SequenceNumber:-5
+Successfully add record in tblSensorData3
+============================
+Total Record record in tblSensorData3:-5
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:52:35", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"370678" , "sensorName":"Sensor 3", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"ca420607-61e1-40f2-b15c-7cd1b6b4074b", "state": "2", "messageDate": "2019-04-09 06:52:31", "rawData":"218%7c0", "dataType": "Centimeter", "dataValue": "218", "plotValues": "7.2", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "75", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:52:29 AM
+===========================
+Webhook Received :- 4/9/2019 6:53:49 AM
+Sensor Data
+366687
+Sensor 2
+105
+34554
+d74f539c-76f9-492e-89c8-7d8bcbef70f4
+18
+2019-04-09 06:53:53
+20%7c1
+Centimeter
+20
+0.7
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:53:49 AM
+SequenceNumber:-5
+Successfully add record in tblSensorData2
+============================
+Total Record record in tblSensorData2:-5
+============================
+documentContents{"gatewayMessage":{ "gatewayID":"915063" , "gatewayName":"Ethernet Gateway - 915063" , "accountID":"21271", "networkID":"34554" , "messageType":"0" , "power":"0", "batteryLevel": "101" , "date": "2019-04-09 06:53:55", "count":"1", "signalStrength": "0", "pendingChange": "False" },"sensorMessages":[{ "sensorID":"366687" , "sensorName":"Sensor 2", "applicationID":"105", "networkID":"34554", "dataMessageGUID":"d74f539c-76f9-492e-89c8-7d8bcbef70f4", "state": "18", "messageDate": "2019-04-09 06:53:53", "rawData":"20%7c1", "dataType": "Centimeter", "dataValue": "20", "plotValues": "0.7", "plotLabels": "Feet", "batteryLevel": "100", "signalStrength": "100", "pendingChange": "True"}]}
+Webhook End :- 4/9/2019 6:53:49 AM
+===========================
+Webhook Received :- 4/9/2019 6:57:44 AM
+Sensor Data
+372011
+Sensor 1
+105
+34554
+b54a9c66-98cd-49fb-b9c7-a1c42e671524
+2
+2019-04-09 06:57:49
+196%7c0
+Centimeter
+196
+6.4
+Feet
+100
+100
+True
+============================
+today:-4/9/2019 12:00:00 AM=========4/9/2019 6:57:44 AM
+SequenceNumber:-6
+Successfully add record in tblSensorData1
+============================
+Total Record record in tblSensorData1:-6
+============================
+doc
